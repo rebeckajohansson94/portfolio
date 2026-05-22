@@ -52,7 +52,7 @@ export const projects: Project[] = [
     stack: ["React", "Vite", "Tailwind CSS", "dnd-kit", "TypeScript"],
     image: "/images/kanban.png",
     github: "https://github.com/rebeckajohansson94/todo-board",
-    gradient: "from-[#0f0a06] to-[#2C1810]",
+    gradient: "from-[#8b6347] to-[#0f0a06]",
   },
   {
     id: 2,
