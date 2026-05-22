@@ -5,5 +5,6 @@ export type Project = {
   description: string;
   stack: string[];
   image: string;
+  gradient: string;
   github?: string; // optional då inte alla projekt kommer länkas till GitHub
 };

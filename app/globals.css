@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+:root {
+  --dark-brown: #2c1810;
+  --soft-brown: #5c3317;
+  --light-brown: #8b6347;
+  --bridal-beige: #e8d5b7;
+  --white: #fafaf8;
+  --black: #0f0f0f;
+}
+
+@theme inline {
+  --color-dark-brown: var(--dark-brown);
+  --color-soft-brown: var(--soft-brown);
+  --color-light-brown: var(--light-brown);
+  --color-bridal-beige: var(--bridal-beige);
+  --color-white: var(--white);
+  --color-black: var(--black);
+}
