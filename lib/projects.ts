@@ -39,7 +39,7 @@ export const projects: Project[] = [
     description:
       "A simple but polished mobile app that fetches random quotes from a public API. Built to practice core React Native concepts - component structure, API calls and TypeScript in a mobile environment.",
     stack: ["React Native", "Expo", "TypeScript", "DummyJSON API"],
-    image: "/images/appquotes.png",
+    image: "/images/quotesapp.png",
     github: "https://github.com/rebeckajohansson94/qoute-app",
     gradient: "from-[#1a0a04] to-[#8B6347]",
   },
