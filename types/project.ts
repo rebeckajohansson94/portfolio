@@ -3,8 +3,8 @@ export type Project = {
   title: string;
   shortDesc: string;
   description: string;
+  year: string;
   stack: string[];
   image: string;
-  gradient: string;
-  github?: string; // optional då inte alla projekt kommer länkas till GitHub
+  github?: string; // optional
 };
