@@ -18,15 +18,15 @@ export default function Projects() {
       />
 
       <div className="max-w-350 mx-auto mb-12">
-        <p className="text-lavender-mid text-xs tracking-[0.35em] uppercase mb-4 font-bold">
+        <p className="text-lavender-deep text-xs tracking-[0.35em] uppercase mb-4 font-bold">
           Selected work
         </p>
         <h2
-          className="text-black/80 text-6xl leading-none"
+          className="text-black/80 text-6xl leading-none font-semibold"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Recent{" "}
-          <span className="italic text-lavender-deep font-normal">
+          <span className="italic text-lavender-deep font-semibold">
             projects
           </span>
         </h2>

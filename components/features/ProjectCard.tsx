@@ -11,11 +11,11 @@ export default function ProjectCard({ project, onClick }: Props) {
   return (
     <div
       onClick={onClick}
-      className="relative group flex flex-col min-h-140 w-full border border-lavender-soft/30 hover:border-lavender-mid/60 transition-all duration-300 bg-white cursor-pointer"
+      className="relative group flex flex-col min-h-140 w-full border border-lavender-soft/30 hover:border-lavender-mid/60 transition-all duration-300 bg-white"
     >
       {/* year */}
       <div className="absolute top-4 right-4 z-10">
-        <span className="bg-white/80 backdrop-blur-sm text-lavender-deep text-xs tracking-widest px-3 py-1 rounded-full border border-lavender-mid/40 shadow-sm">
+        <span className="bg-white/80 backdrop-blur-sm text-lavender-deep text-xs tracking-widest px-3 py-1 rounded-full border border-lavender-mid/40 shadow-sm font-medium">
           {project.year}
         </span>
       </div>
@@ -33,7 +33,7 @@ export default function ProjectCard({ project, onClick }: Props) {
 
       {/* info */}
       <div className="p-6 flex flex-col gap-3 mt-auto">
-        <p className="text-lavender-mid text-xs tracking-[0.3em] uppercase">
+        <p className="text-lavender-mid text-xs tracking-[0.3em] uppercase font-medium">
           {/* displays only the first 2 technologies from the stack array, joined with a dot separator */}
           {project.stack.slice(0, 2).join(" · ")}
         </p>

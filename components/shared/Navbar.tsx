@@ -5,7 +5,8 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-3 flex justify-between items-center">
       <Link
         href="/"
-        className="text-lavender-deep font-bold tracking-widest uppercase text-sm px-4 py-2 rounded-full bg-white/70 backdrop-blur-md transition-all duration-300 hover:bg-white/90 border border-lavender-soft/40"
+        className="text-lavender-deep tracking-widest text-lg px-4 py-2 rounded-full bg-white/70 backdrop-blur-md transition-all duration-300 hover:bg-white/90 border border-lavender-soft/40 italic"
+        style={{ fontFamily: "var(--font-pacifico)" }}
       >
         Rebecka
       </Link>
