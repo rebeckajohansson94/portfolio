@@ -7,4 +7,5 @@ export type Project = {
   stack: string[];
   image: string;
   github?: string; // optional
+  figma?: string; // optional
 };

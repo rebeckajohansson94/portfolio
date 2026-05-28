@@ -10,6 +10,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Figma", "UX Design", "Prototyping"],
     image: "/images/bookcovenapp.png",
+    figma:
+      "https://www.figma.com/proto/ksMSphO4GqtsNdhEY6khsF/Untitled?node-id=1-2&p=f&t=V5AJFw1hJDPPET7m-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
   },
   {
     id: 6,
@@ -48,7 +50,7 @@ export const projects: Project[] = [
     title: "Todo Board",
     shortDesc: "A kanban board with drag and drop",
     description:
-      "A fully interactive kanban board with three columns — Todo, Doing and Done. Tasks can be added, edited, deleted and dragged between columns. Built with dnd-kit for drag and drop, and useReducer + useContext for state management.",
+      "A fully interactive kanban board with three columns: Todo, Doing and Done. Tasks can be added, edited, deleted and dragged between columns. Built with dnd-kit for drag and drop, and useReducer + useContext for state management.",
     year: "2025",
     stack: ["React", "Vite", "Tailwind CSS", "dnd-kit", "TypeScript"],
     image: "/images/kanban.png",
@@ -63,5 +65,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Figma", "UX Design", "Prototyping"],
     image: "/images/vandrandekassargrupp.png",
+    figma:
+      "https://www.figma.com/proto/4v4lv65dPbsVzXCG7tLwdw/SLUTPROJEKT-UX-EH-Vandrande-kasse?node-id=269-144&starting-point-node-id=268%3A513",
   },
 ];
