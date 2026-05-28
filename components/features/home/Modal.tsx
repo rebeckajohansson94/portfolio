@@ -1,6 +1,6 @@
 import { Project } from "@/types/project";
 import { X } from "lucide-react";
-import { GitHub } from "@deemlol/next-icons";
+import { GitHub, Figma } from "@deemlol/next-icons";
 
 type ModalProps = {
   isOpen: boolean;
@@ -84,7 +84,7 @@ export default function Modal({ isOpen, project, onClose }: ModalProps) {
               target="_blank"
               className="flex items-center gap-2 bg-lavender-deep text-white text-xs tracking-widest uppercase px-6 py-3 hover:bg-lavender-mid transition-colors duration-300"
             >
-              <GitHub size={16} color="#FFFFFF" strokeWidth={1.5} />
+              <Figma size={16} color="#FFFFFF" strokeWidth={1.5} />
               Figma
             </a>
           )}
