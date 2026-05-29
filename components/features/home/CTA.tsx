@@ -38,7 +38,7 @@ export default function CTA() {
           </div>
           <div className="flex flex-col gap-4">
             <a
-              href="mailto:din@email.com"
+              href="mailto:rebeckaemmajohansson@gmail.com"
               className="flex items-center gap-3 text-white/80 hover:text-white transition-colors text-sm tracking-wide"
             >
               <Mail size={20} color="#FFFFFF" strokeWidth={1.5} />

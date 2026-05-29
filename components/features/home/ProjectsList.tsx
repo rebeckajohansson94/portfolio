@@ -13,14 +13,6 @@ export default function Projects() {
       id="projects"
       className="relative bg-white px-8 py-20 overflow-hidden"
     >
-      {/* spheres in different shades on the background */}
-      <div className="absolute -top-20 -left-20 w-96 h-96 rounded-full bg-linear-to-br from-lavender-mist/60 to-lavender-soft/20 blur-2xl pointer-events-none" />
-      <div className="absolute top-1/3 -right-16 w-80 h-80 rounded-full bg-linear-to-bl from-lavender-soft/50 to-lavender-mid/20 blur-2xl pointer-events-none" />
-      <div
-        className="absolute -bottom-10 left-1/4 w-64 h-64 rounded-full bg-linear-to-tr from-lavender-mid/30 to-lavender-soft/10 blur-2xl 
-      pointer-events-none"
-      />
-
       <div className="max-w-350 mx-auto mb-12">
         <p className="text-lavender-deep text-xs tracking-[0.35em] uppercase mb-4 font-bold">
           Selected work

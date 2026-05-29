@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Cormorant_Garamond, Inter, Pacifico } from "next/font/google";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 // cormorant Garamond: serif font used for headlines (h1, h2)
 const cormorant = Cormorant_Garamond({
@@ -42,6 +43,7 @@ export default function RootLayout({
       <body>
         <Navbar /> {/* Rendered on all pages via layout */}
         {children}
+        <Footer /> {/* Rendered on all pages via layout */}
       </body>
     </html>
   );

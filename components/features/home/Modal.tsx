@@ -1,4 +1,4 @@
-import { Project } from "@/types/project";
+import type { Project } from "@/types/project";
 import { X } from "lucide-react";
 import { GitHub, Figma } from "@deemlol/next-icons";
 
