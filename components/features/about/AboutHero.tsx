@@ -1,6 +1,6 @@
 export default function AboutHero() {
   return (
-    <section className="relative h-[50vh] overflow-hidden">
+    <section className="relative h-[65vh] overflow-hidden">
       {/* video background */}
       <video
         autoPlay
@@ -11,7 +11,7 @@ export default function AboutHero() {
         poster="/images/hero-poster.jpg" // fallback img
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/videos/hero-about1.mp4" type="video/mp4" />
+        <source src="/videos/hero-about.mp4" type="video/mp4" />
       </video>
 
       {/* overlay to make the text pop more */}

@@ -1,0 +1,34 @@
+export default function ContactHero() {
+  return (
+    <section className="relative h-[70vh] overflow-hidden">
+      {/* video background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster="/images/hero-poster.jpg" // fallback img
+        className="absolute inset-0 w-full h-full object-cover object-center"
+      >
+        <source src="/videos/hero-contact1.mp4" type="video/mp4" />
+      </video>
+
+      {/* overlay to make the text pop more */}
+      <div className="absolute inset-0 bg-lavender-deep/40" />
+
+      {/* content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-16">
+        <p className="text-white text-sm tracking-[0.4em] uppercase mb-2 font-semibold drop-shadow-xl">
+          Reach out!
+        </p>
+        <h1
+          className="text-white text-[6rem] font-bold leading-none mb-4 uppercase drop-shadow-lg"
+          style={{ fontFamily: "var(--font-cormorant)" }}
+        >
+          Contact me
+        </h1>
+      </div>
+    </section>
+  );
+}

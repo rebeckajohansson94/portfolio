@@ -17,9 +17,6 @@ export default function Hero() {
       {/* overlay to make the text pop more */}
       <div className="absolute inset-0 bg-lavender-deep/40" />
 
-      {/* white gradient fade til' the section below */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-b from-transparent via-white/20 to-white z-10" />
-
       {/* hero content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-16">
         <p className="text-white text-sm tracking-[0.4em] uppercase mb-2 font-bold drop-shadow-lg">

@@ -5,10 +5,10 @@ export default function AboutMe() {
     <section className="bg-white">
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
         {/* left: lavender panel with image */}
-        <div className="relative bg-lavender-deep flex items-end justify-center pt-16 px-16 min-h-150">
+        <div className="relative bg-lavender-mid/50 flex items-end justify-center pt-16 px-16 min-h-150">
           {/* shaping for image */}
           <div
-            className="relative z-10 overflow-hidden w-110 h-135"
+            className="relative z-10 overflow-hidden w-130 h-160"
             style={{ borderRadius: "50% 50% 0 0 / 40% 40% 0 0" }}
           >
             <Image
@@ -33,7 +33,7 @@ export default function AboutMe() {
                 style={{ fontFamily: "var(--font-cormorant)" }}
               >
                 Frontend developer with an{" "}
-                <span className="italic text-lavender-deep">
+                <span className="italic text-lavender-deep font-semibold">
                   eye for detail.
                 </span>
               </h2>
