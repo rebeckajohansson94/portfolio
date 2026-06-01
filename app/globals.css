@@ -1,23 +1,13 @@
 @import "tailwindcss";
 
-:root {
-  --lavender-deep: #6b5b8e;
-  --lavender-mid: #9b89c4;
-  --lavender-soft: #c4b5e8;
-  --lavender-mist: #e8e0f5;
-  --lilac-blush: #f0eaf8;
-  --white: #fefefe;
-  --black: #0f0f0f;
-  --text-dark: #1a1025;
-}
-
+/* defines custom colors and fonts as tailwind classes, for example: bg-lavender-deep */
 @theme inline {
-  --color-lavender-deep: var(--lavender-deep);
-  --color-lavender-mid: var(--lavender-mid);
-  --color-lavender-soft: var(--lavender-soft);
-  --color-lavender-mist: var(--lavender-mist);
-  --color-lilac-blush: var(--lilac-blush);
-  --color-text-dark: var(--text-dark);
+  --color-lavender-deep: #6b5b8e;
+  --color-lavender-mid: #9b89c4;
+  --color-lavender-soft: #c4b5e8;
+  --color-lavender-mist: #e8e0f5;
+  --color-lilac-blush: #f0eaf8;
+  --color-text-dark: #1a1025;
   --font-display: var(--font-cormorant);
   --font-sans: var(--font-inter);
 }

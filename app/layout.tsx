@@ -41,9 +41,10 @@ export default function RootLayout({
       className={`${cormorant.variable} ${inter.variable} ${pacifico.variable}`}
     >
       <body>
-        <Navbar /> {/* Rendered on all pages via layout */}
+        {/* navbar and footer rendered on all pages via layout */}
+        <Navbar />
         {children}
-        <Footer /> {/* Rendered on all pages via layout */}
+        <Footer />
       </body>
     </html>
   );

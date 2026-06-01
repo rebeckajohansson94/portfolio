@@ -6,7 +6,7 @@ import Modal from "./Modal";
 import { useModal } from "@/hooks/useModal";
 
 export default function Projects() {
-  const { isOpen, selectedProject, openModal, closeModal } = useModal(); // destructuring the states and functions needed from the useModal hook
+  const { selectedProject, openModal, closeModal } = useModal(); // destructuring the states and functions needed from the useModal hook
 
   return (
     <section
@@ -18,12 +18,12 @@ export default function Projects() {
           Selected work
         </p>
         <h2
-          className="text-black/80 text-6xl leading-none font-semibold"
+          className="text-black/80 text-6xl font-semibold"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Recent{" "}
           <span className="italic text-lavender-deep font-semibold">
-            projects
+            projects.
           </span>
         </h2>
       </div>
@@ -38,8 +38,10 @@ export default function Projects() {
           />
         ))}
       </div>
-      {/* renders the modal: selectedProject is set when a card is clicked via openModal and passes the project object */}
-      <Modal isOpen={isOpen} project={selectedProject} onClose={closeModal} />
+      {/* renders the modal if a project has been selected, otherwise renders nothing */}
+      {selectedProject ? (
+        <Modal project={selectedProject} onClose={closeModal} />
+      ) : null}
     </section>
   );
 }

@@ -3,14 +3,11 @@ import { X } from "lucide-react";
 import { GitHub, Figma } from "@deemlol/next-icons";
 
 type ModalProps = {
-  isOpen: boolean;
-  project: Project | null;
+  project: Project;
   onClose: () => void;
 };
 
-export default function Modal({ isOpen, project, onClose }: ModalProps) {
-  if (!isOpen || !project) return null; // returns if modal is closed or no project is selected
-
+export default function Modal({ project, onClose }: ModalProps) {
   return (
     <>
       {/* overlay: closes the modal when clicking outside the box */}
@@ -23,9 +20,9 @@ export default function Modal({ isOpen, project, onClose }: ModalProps) {
       <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto p-10">
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 text-black/40 hover:text-black/80 transition-colors"
+          className="absolute top-6 right-6 text-black/70 hover:text-black transition-colors cursor-pointer"
         >
-          <X size={20} className="text-black/80 cursor-pointer" />
+          <X size={20} />
         </button>
 
         {/* category: slice(0,2) shows only the first 2 items, joined with a dot separator */}

@@ -14,10 +14,11 @@ export default function TechCarousel() {
       <div className="flex justify-between items-center">
         {items.map((item) => (
           // maps through the items array and renders each skill as a text item
-          <span key={item} className="inline-flex items-center gap-8">
-            <span className="text-black/70 text-xs tracking-[0.3em] uppercase font-medium">
-              {item}
-            </span>
+          <span
+            key={item}
+            className="text-black/70 text-xs tracking-[0.3em] uppercase font-medium"
+          >
+            {item}
           </span>
         ))}
       </div>

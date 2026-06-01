@@ -3,15 +3,17 @@ import { GitHub, LinkedIn, Mail } from "@deemlol/next-icons";
 export default function CTA() {
   return (
     <section className="relative bg-lavender-deep overflow-hidden py-20 px-8">
+      {/* decorative background areas */}
       <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-lavender-mid/30 blur-3xl pointer-events-none" />
       <div className="absolute -bottom-20 -left-20 w-96 h-96 rounded-full bg-lavender-soft/20 blur-3xl pointer-events-none" />
+
       <div className="relative z-10 max-w-350 mx-auto flex flex-col md:flex-row items-center justify-center gap-0">
         <div className="flex flex-col gap-4 pr-24">
           <p className="text-lavender-mist text-xs tracking-[0.35em] uppercase">
             Get in touch
           </p>
           <h2
-            className="text-white leading-none font-normal"
+            className="text-white font-normal"
             style={{ fontFamily: "var(--font-cormorant)" }}
           >
             <span className="text-6xl font-bold uppercase block">

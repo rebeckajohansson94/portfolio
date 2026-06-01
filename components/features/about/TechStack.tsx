@@ -28,7 +28,7 @@ export default function TechStack() {
               className="bg-white border border-lavender-soft/80 hover:border-lavender-mid/80 hover:shadow-sm p-8 flex flex-col gap-4 transition-all duration-300"
             >
               {/* category-name */}
-              <div className="text-lavender-mid text-s tracking-[0.3em] uppercase font-bold border-b border-lavender-soft/40 pb-4 flex justify-between items-center">
+              <div className="text-lavender-mid text-base tracking-[0.3em] uppercase font-bold border-b border-lavender-soft/40 pb-4 flex justify-between items-center">
                 {group.category}
                 <group.icon size={18} className="text-lavender-deep/80" />
               </div>
