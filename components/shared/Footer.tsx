@@ -4,11 +4,11 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t border-lavender-soft/40 py-5 px-8">
       <div className="max-w-350 mx-auto flex items-center justify-between">
-        <p className="text-black/70 text-xs tracking-widest uppercase">
+        <p className="text-black/70 text-xs tracking-widest uppercase font-medium">
           © 2026 Rebecka Johansson
         </p>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 ">
           <a
             href="rebeckaemmajohansson@gmail.com"
             className="text-black/70 hover:text-lavender-deep transition-colors"

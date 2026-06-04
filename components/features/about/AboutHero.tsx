@@ -9,9 +9,9 @@ export default function AboutHero() {
         playsInline
         preload="auto"
         poster="/images/hero-poster.jpg" // fallback img
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-bottom"
       >
-        <source src="/videos/hero-about.mp4" type="video/mp4" />
+        <source src="/videos/clouds.mp4" type="video/mp4" />
       </video>
 
       {/* overlay to make the text pop more */}
