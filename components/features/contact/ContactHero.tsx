@@ -1,6 +1,6 @@
 export default function ContactHero() {
   return (
-    <section className="relative h-[70vh] overflow-hidden">
+    <section className="relative h-[65vh] overflow-hidden">
       {/* video background */}
       <video
         autoPlay
