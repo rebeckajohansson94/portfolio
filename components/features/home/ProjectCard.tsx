@@ -42,7 +42,10 @@ export default function ProjectCard({ project, openModal }: ProjectCardProps) {
         </h3>
         <div className="w-full h-px bg-lavender-soft/40" />
         <div className="flex items-center justify-between pt-3">
-          <span className="text-black/70 text-xs tracking-[0.3em] uppercase font-semibold">
+          <span
+            onClick={() => openModal(project)}
+            className="text-black/70 text-xs tracking-[0.3em] uppercase font-semibold cursor-pointer"
+          >
             View case
           </span>
           <button
