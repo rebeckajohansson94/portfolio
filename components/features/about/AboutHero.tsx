@@ -8,7 +8,7 @@ export default function AboutHero() {
         loop
         playsInline
         preload="auto"
-        poster="/images/hero-poster.jpg" // fallback img
+        poster="/images/hero-poster1.png" // fallback img
         className="absolute inset-0 w-full h-full object-cover object-bottom"
       >
         <source src="/videos/clouds.mp4" type="video/mp4" />
