@@ -22,13 +22,13 @@ export default function ContactForm() {
     <section className="bg-white">
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
         {/* left: lavender panel with text */}
-        <div className="bg-lavender-mid/60 flex items-center p-16">
+        <div className="bg-lavender-mid/50 flex items-center p-16">
           <div className="flex flex-col gap-6">
-            <p className="text-white text-xs tracking-[0.35em] uppercase font-bold">
+            <p className="text-black/70 text-xs tracking-[0.35em] uppercase font-semibold">
               Get in touch
             </p>
             <h2
-              className="text-white text-5xl leading-tight"
+              className="text-black/70 text-5xl leading-tight"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
               Let&apos;s work{" "}
@@ -36,7 +36,7 @@ export default function ContactForm() {
                 together.
               </span>
             </h2>
-            <p className="text-white/90 text-base leading-relaxed font-medium">
+            <p className="text-black/70 text-base leading-relaxed font-medium">
               Whether you have a project in mind, a question, or just want to
               say hi - feel free to reach out!
             </p>
