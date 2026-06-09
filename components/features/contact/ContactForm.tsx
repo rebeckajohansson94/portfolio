@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Heart } from "lucide-react";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("mgoqjpjj"); // connects to Formspree form via form ID
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID!); // connects to Formspree using form ID from environment variable
 
   // renders success message when form is submitted
   if (state.succeeded) {
