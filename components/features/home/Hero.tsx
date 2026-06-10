@@ -17,7 +17,6 @@ export default function Hero() {
       {/* overlay to make the text pop more */}
       <div className="absolute inset-0 bg-lavender-deep/40" />
 
-      {/* hero content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-16">
         <p className="text-white text-sm tracking-[0.4em] uppercase mb-2 font-bold drop-shadow-lg">
           Hello, I&apos;m
