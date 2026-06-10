@@ -9,7 +9,7 @@ export function useModal() {
     setSelectedProject(project);
   }
 
-  // closes the modal by resetting both states
+  // closes the modal by resetting state
   function closeModal() {
     setSelectedProject(null);
   }

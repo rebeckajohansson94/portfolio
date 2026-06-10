@@ -9,11 +9,11 @@ export default function TechStack() {
             Tech stack
           </p>
           <h2
-            className="text-black/80 text-5xl leading-none"
+            className="text-black/80 text-4xl md:text-5xl leading-none"
             style={{ fontFamily: "var(--font-cormorant)" }}
           >
             My{" "}
-            <span className="italic text-lavender-deep font-normal">
+            <span className="italic text-lavender-deep font-semibold">
               toolkit.
             </span>
           </h2>

@@ -17,12 +17,12 @@ export default function ContactHero() {
       {/* overlay to make the text pop more */}
       <div className="absolute inset-0 bg-lavender-deep/40" />
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-16">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 sm:px-12 lg:px-16">
         <p className="text-white text-sm tracking-[0.4em] uppercase mb-2 font-semibold drop-shadow-xl">
           Reach out!
         </p>
         <h1
-          className="text-white text-[6rem] font-bold leading-none mb-4 uppercase drop-shadow-lg"
+          className="text-white text-[3rem] sm:text-[4.5rem] lg:text-[6rem] font-bold leading-none mb-4 uppercase drop-shadow-lg"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Contact me

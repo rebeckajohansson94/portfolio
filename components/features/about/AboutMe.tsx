@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <section className="bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
-        {/* left: lavender panel with image */}
-        <div className="relative bg-lavender-mid/50 flex items-end justify-center pt-16 px-16 min-h-150">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
+        {/* left: lavender panel with image: hidden on mobile/tablet */}
+        <div className="hidden lg:flex relative bg-lavender-mid/50 items-end justify-center pt-16 px-16 min-h-150">
           {/* shaping for image */}
           <div
             className="relative z-10 overflow-hidden w-130 h-160"
@@ -23,13 +23,13 @@ export default function AboutMe() {
 
         {/* right: white panel with info */}
         <div className="flex items-center">
-          <div className="flex flex-col gap-6 px-16 py-24">
+          <div className="flex flex-col gap-6 px-8 md:px-16 py-12 md:py-24">
             <div>
               <p className="text-lavender-mid text-xs tracking-[0.35em] uppercase mb-4 font-bold">
                 Who I am
               </p>
               <h2
-                className="text-black/80 text-5xl leading-tight mb-6"
+                className="text-black/80 text-4xl md:text-5xl leading-tight mb-6"
                 style={{ fontFamily: "var(--font-cormorant)" }}
               >
                 Frontend developer with an{" "}

@@ -17,17 +17,17 @@ export default function Hero() {
       {/* overlay to make the text pop more */}
       <div className="absolute inset-0 bg-lavender-deep/40" />
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-16">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 sm:px-12 lg:px-16">
         <p className="text-white text-sm tracking-[0.4em] uppercase mb-2 font-bold drop-shadow-lg">
           Hello, I&apos;m
         </p>
         <h1
-          className="text-white text-[8rem] font-bold leading-none mb-4 uppercase drop-shadow-lg"
+          className="text-white text-[3rem] sm:text-[5rem] lg:text-[8rem] font-bold leading-none mb-4 uppercase drop-shadow-lg"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Rebecka Johansson
         </h1>
-        <p className="text-white text-xl m-8 tracking-widest drop-shadow-lg">
+        <p className="text-white text-base sm:text-xl m-8 tracking-widest drop-shadow-lg">
           I turn ideas into interfaces.
         </p>
         <a

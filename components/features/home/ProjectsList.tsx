@@ -18,7 +18,7 @@ export default function Projects() {
           Selected work
         </p>
         <h2
-          className="text-black/80 text-6xl font-semibold"
+          className="text-black/80 text-4xl sm:text-5xl lg:text-6xl font-semibold"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Recent{" "}

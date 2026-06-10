@@ -20,15 +20,15 @@ export default function ContactForm() {
 
   return (
     <section className="bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
         {/* left: lavender panel with text */}
-        <div className="bg-lavender-mid/50 flex items-center p-16">
+        <div className="bg-lavender-mid/50 flex items-center p-8 md:p-12 lg:p-16">
           <div className="flex flex-col gap-6">
             <p className="text-black/70 text-xs tracking-[0.35em] uppercase font-semibold">
               Get in touch
             </p>
             <h2
-              className="text-black/70 text-5xl leading-tight"
+              className="text-black/70 text-4xl md:text-5xl leading-tight"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
               Let&apos;s work{" "}
@@ -44,10 +44,9 @@ export default function ContactForm() {
         </div>
 
         {/* right: white panel with form */}
-        <div className="flex items-center p-16">
+        <div className="flex items-center p-8 md:p-12 lg:p-16">
           {/* onSubmit handled by Formspree's handleSubmit */}
           <form onSubmit={handleSubmit} className="flex flex-col gap-8 w-full">
-            {/* name */}
             <div className="flex flex-col gap-2">
               <label className="text-lavender-deep text-xs tracking-[0.35em] uppercase font-bold">
                 Name
@@ -66,7 +65,6 @@ export default function ContactForm() {
               />
             </div>
 
-            {/* email */}
             <div className="flex flex-col gap-2">
               <label className="text-lavender-deep text-xs tracking-[0.35em] uppercase font-bold">
                 Email
@@ -85,7 +83,6 @@ export default function ContactForm() {
               />
             </div>
 
-            {/* message */}
             <div className="flex flex-col gap-2">
               <label className="text-lavender-deep text-xs tracking-[0.35em] uppercase font-bold">
                 Message
@@ -104,7 +101,6 @@ export default function ContactForm() {
               />
             </div>
 
-            {/* submit button */}
             <button
               type="submit"
               disabled={state.submitting}
