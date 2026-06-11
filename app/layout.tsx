@@ -27,7 +27,7 @@ const pacifico = Pacifico({
 export const metadata: Metadata = {
   title: "Rebecka Johansson - Frontend Developer",
   description:
-    "A Portfolio of Rebecka, a frontend developer with a passion for design, aesthetics and building applications that are user-friendly.",
+    "Rebecka Johansson's portfolio — a frontend developer with a passion for design, aesthetics and building user-friendly applications.",
 };
 
 export default function RootLayout({
