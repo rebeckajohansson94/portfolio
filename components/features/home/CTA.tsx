@@ -40,6 +40,9 @@ export default function CTA() {
             <p className="text-lavender-mist text-xs tracking-[0.3em] uppercase mt-1">
               Frontend Developer
             </p>
+            <p className="text-white/60 text-xs tracking-[0.2em] uppercase mt-1">
+              Lund, Sweden - open to remote
+            </p>
           </div>
           <div className="flex flex-col gap-4">
             <a
